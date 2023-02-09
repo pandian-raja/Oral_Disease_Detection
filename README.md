@@ -10,8 +10,11 @@ While the source code provides the models and weights, the image dataset is not 
 
 # Conclution 
 
-A preliminary analysis shows that the accuracy of detecting oral diseases has not yet met the desired expectations. Based on the sample images provided in the [source repository] (https://github.com/hplin6/oral_disease_diagnosis/tree/master/samples/center-position), the system is consistently predicting normal(No Cancer). Without access to the image dataset, it is difficult to make a comprehensive assessment of the solution's performance using saved pytorch model.
+A preliminary analysis shows that the accuracy of detecting oral diseases has not yet met the desired expectations. Based on the sample images provided in the [source repository](https://github.com/hplin6/oral_disease_diagnosis/tree/master/samples/center-position), the model is consistently predicting normal(No Cancer). Without access to the image dataset, it is difficult to make a comprehensive assessment of the solution's performance using saved pytorch model.
 
+### Analysis of [source repository](https://github.com/hplin6/oral_disease_diagnosis/tree/master/samples/center-position) images.
+
+![Task](https://raw.githubusercontent.com/pandian-raja/Oral_Disease_Detection/main/Resources/oral_disease_result.png?token=GHSAT0AAAAAAB4A7YLTFY73E6Z74TQDDFYEY7ELBDA)
 
 # Steps to implement 
 
@@ -25,5 +28,5 @@ The model size is aroung 150 MB and the Githhub has upload size limit. So I've p
 
 3. For Ipynb: 
     3.1 Move pretrained.zip to ...Source/Ipynb/Assets/OralCancer/
-    3.2 Copy zip files ( images.zip, oral.zip and pretrained.zip) from ...Source/Ipynb/Assets/OralCancer/ to your Google Drive
-    3.3 
+    3.2 Copy OralDiagnosisConvertModel.ipynb, and zip files( images.zip, oral.zip and pretrained.zip) from ...Source/Ipynb/Assets/OralCancer) to your Google Drive
+    3.3 Run OralDiagnosisConvertModel.ipynb on Colab
