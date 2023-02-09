@@ -14,7 +14,7 @@ A preliminary analysis shows that the accuracy of detecting oral diseases has no
 
 ### Analysis of [source repository](https://github.com/hplin6/oral_disease_diagnosis/tree/master/samples/center-position) images.
 
-![Task](https://raw.githubusercontent.com/pandian-raja/Oral_Disease_Detection/main/Resources/oral_disease_result.png?token=GHSAT0AAAAAAB4A7YLTFY73E6Z74TQDDFYEY7ELBDA)
+![Image](../main/Resources/oral_disease_result.png?raw=true)
 
 # Steps to implement 
 
