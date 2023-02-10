@@ -16,7 +16,8 @@ While the source code provides the models and weights, the image dataset is not 
 
 # Conclution 
 
-A preliminary analysis shows that the accuracy of detecting oral diseases has not yet met the desired expectations. Based on the sample images provided in the [source repository](https://github.com/hplin6/oral_disease_diagnosis/tree/master/samples/center-position), the model is consistently predicting normal(No Cancer). Without access to the image dataset, it is difficult to make a comprehensive assessment of the solution's performance using saved pytorch model.
+A preliminary analysis shows that the accuracy of detecting oral diseases has not yet met the desired expectations. The model was able to correctly classify the sample images located in the [source repository](https://github.com/hplin6/oral_disease_diagnosis/tree/master/samples/center-position). However, when the model was built for iOS, its performance was not up to par. Without access to the image dataset, it is difficult to make a comprehensive assessment of the solution's performance using saved pytorch model.
+
 
 ### Analysis of [source repository](https://github.com/hplin6/oral_disease_diagnosis/tree/master/samples/center-position) images
 
@@ -24,20 +25,11 @@ A preliminary analysis shows that the accuracy of detecting oral diseases has no
 
 # Steps to implement 
 
-The model size is aroung 150 MB and the Githhub has upload size limit. So I've put the assets in Google Drive. 
 
-1. Download and extract the [Assets.zip](https://drive.google.com/file/d/18gRBDezrw0-rxtnDzGn1VonAFmY0pjJM/view?usp=share_link)
+1. For iOS: Open Oral Diagnosis.xcodeproj and run on Xcode
 
-2. For iOS: 
+2. For Ipynb: 
 
-    2.1 Move OralCancerV3.mlpackage to ...Source/iOS/Oral Diagnosis/ 
+    2.1 Copy OralDiagnosisConvertModel.ipynb, and zip files( images.zip, oral.zip and pretrained.zip) from ...Source/Ipynb/Assets/OralCancer) to your Google Drive
 
-    2.2 Open Oral Diagnosis.xcodeproj and run on Xcode
-
-3. For Ipynb: 
-
-    3.1 Move pretrained.zip to ...Source/Ipynb/Assets/OralCancer/
-
-    3.2 Copy OralDiagnosisConvertModel.ipynb, and zip files( images.zip, oral.zip and pretrained.zip) from ...Source/Ipynb/Assets/OralCancer) to your Google Drive
-
-    3.3 Run OralDiagnosisConvertModel.ipynb on Colab
+    2.2 Run OralDiagnosisConvertModel.ipynb on Colab
