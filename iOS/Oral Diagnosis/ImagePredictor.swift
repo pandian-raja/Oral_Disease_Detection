@@ -9,7 +9,7 @@ import UIKit
 
 class ImagePredictor {
     private static let oralClassifier = oralImageClassifier()
-    private let labels = ["No Cancer", "Cancer", "Ulcer", "High Risk of Cancer", "Low Risk of Cancer "]
+    private let labels = ["Cancer", "High Risk of Cancer", "Low Risk of Cancer", "No Cancer", "Ulcer"]
     
     struct Prediction {
         let classification: String
@@ -19,7 +19,7 @@ class ImagePredictor {
     static func oralImageClassifier() -> VNCoreMLModel {
         let config = MLModelConfiguration()
         
-        let oralCancerClassifierWrapper = try? OralCancerV3(configuration: config)
+        let oralCancerClassifierWrapper = try? OralCancerV5(configuration: config)
         
         guard let oralCancerClassifier = oralCancerClassifierWrapper else { fatalError("App failed to create an image classifer model instance")}
         
@@ -44,7 +44,6 @@ class ImagePredictor {
                 print("VNRequest produced the wrong result type: \(type(of: request.results)).")
                 return
             }
-            
             let max = self.argmax(values)
             completionHandler(Prediction.init(classification: self.labels[max.index], confidencePercentage: String(format: "%.1f", max.value)))
         }

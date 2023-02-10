@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79428E77299616ED00D19D74 /* OralCancerV5.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 79428E76299616ED00D19D74 /* OralCancerV5.mlpackage */; };
 		796B574E29946742007547B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796B574D29946742007547B7 /* AppDelegate.swift */; };
 		796B575029946742007547B7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796B574F29946742007547B7 /* SceneDelegate.swift */; };
 		796B575229946742007547B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796B575129946742007547B7 /* ViewController.swift */; };
 		796B575529946742007547B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 796B575329946742007547B7 /* Main.storyboard */; };
 		796B575729946743007547B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 796B575629946743007547B7 /* Assets.xcassets */; };
 		796B575A29946743007547B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 796B575829946743007547B7 /* LaunchScreen.storyboard */; };
-		796B576829946813007547B7 /* OralCancerV3.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 796B576729946813007547B7 /* OralCancerV3.mlpackage */; };
 		796B576A2994682E007547B7 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796B57692994682E007547B7 /* LoadingView.swift */; };
 		796B576C2994686A007547B7 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796B576B2994686A007547B7 /* ResultViewController.swift */; };
 		796B576F299468F5007547B7 /* ImagePredictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796B576D299468F5007547B7 /* ImagePredictor.swift */; };
@@ -21,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		79428E76299616ED00D19D74 /* OralCancerV5.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = OralCancerV5.mlpackage; sourceTree = "<group>"; };
 		796B574A29946742007547B7 /* Oral Diagnosis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Oral Diagnosis.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		796B574D29946742007547B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		796B574F29946742007547B7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,7 +30,6 @@
 		796B575629946743007547B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		796B575929946743007547B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		796B575B29946743007547B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		796B576729946813007547B7 /* OralCancerV3.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = OralCancerV3.mlpackage; sourceTree = "<group>"; };
 		796B57692994682E007547B7 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		796B576B2994686A007547B7 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		796B576D299468F5007547B7 /* ImagePredictor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePredictor.swift; sourceTree = "<group>"; };
@@ -106,8 +106,8 @@
 		796B5765299467AB007547B7 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				79428E76299616ED00D19D74 /* OralCancerV5.mlpackage */,
 				796B575629946743007547B7 /* Assets.xcassets */,
-				796B576729946813007547B7 /* OralCancerV3.mlpackage */,
 				796B575B29946743007547B7 /* Info.plist */,
 			);
 			name = Assets;
@@ -193,12 +193,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				796B576829946813007547B7 /* OralCancerV3.mlpackage in Sources */,
 				796B575229946742007547B7 /* ViewController.swift in Sources */,
 				796B574E29946742007547B7 /* AppDelegate.swift in Sources */,
 				796B576A2994682E007547B7 /* LoadingView.swift in Sources */,
 				796B576F299468F5007547B7 /* ImagePredictor.swift in Sources */,
 				796B575029946742007547B7 /* SceneDelegate.swift in Sources */,
+				79428E77299616ED00D19D74 /* OralCancerV5.mlpackage in Sources */,
 				796B576C2994686A007547B7 /* ResultViewController.swift in Sources */,
 				796B5770299468F5007547B7 /* Utils.swift in Sources */,
 			);
@@ -346,7 +346,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 3ESTQDBCWT;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Oral Diagnosis/Info.plist";
@@ -377,7 +377,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 3ESTQDBCWT;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Oral Diagnosis/Info.plist";
